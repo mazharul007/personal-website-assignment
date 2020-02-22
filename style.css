@@ -76,20 +76,23 @@ color: #EC4C79;
  /** Client feedback section**/
 .client-feedback-section{
     height: 700px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     background-image: url(images/footer-bg.png);
     background-repeat: no-repeat;
     text-align: center;
-    margin-top: 250px;
+    margin-top: 350px !important;
 }
 
 .client-content{
     margin-top: 10px;
 }
-.contact{
+.client-content h3{
+    margin-top: 20px;
+}
+.contact {
     color: white;
-    margin: 20px 700px;
-    background-color:#EC4E8D;
+    margin: 120px 700px !important;
+    background-color: #EC4E8D;
     text-decoration: none;
     border-radius: 5px;
     padding: 5px 10px;
