@@ -1,0 +1,101 @@
+
+body{
+    font-family: 'Allerta', sans-serif;
+    margin:0px;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    color: #8E8E8F;
+}
+/** Intro section**/
+.intro-section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.name-highlight{
+color: #EC4C79;
+}
+.half-width{
+    margin-left: 5%;
+    padding: 2%;
+    width: 40%;
+    float: left;
+    border-radius: 2px solid black; 
+ }
+
+.half-width img{
+    width: 75%;
+}
+.half-width a{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient( 60deg,pink,deeppink );
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+ }
+ .intro-section{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+ }
+ 
+ /** Biography section**/
+ .biography-section{
+    height: 700px;
+    padding-bottom: 150px;
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+ }
+/** Latest work section**/
+ .latest-work-section{
+    height: 400px;
+    padding-bottom: 150px;
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+ }
+
+ .work-section-heading{
+     text-align: center;
+ }
+
+ .latest-work-width{
+    margin-left: 5%;
+    margin-right: 5px;
+    padding: 1%;
+    width: 25%;
+    float: left;
+    border-radius: 2px solid black; 
+ }
+
+ .latest-work-width img{
+     width: 80%;
+ }
+
+ /** Client feedback section**/
+.client-feedback-section{
+    height: 700px;
+    padding-bottom: 150px;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 250px;
+}
+
+.client-content{
+    margin-top: 10px;
+}
+.contact{
+    color: white;
+    margin: 20px 700px;
+    background-color:#EC4E8D;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+/** Fotter**/
+footer{
+    text-align: center;
+}
